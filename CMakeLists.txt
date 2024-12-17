@@ -49,6 +49,24 @@ include(cmake/Options.cmake)
 add_executable(${MAIN_EXECUTABLE_NAME}
     main.cpp
     generated/src/Helper.cpp
+        BattleSystem.cpp
+        BattleSystem.h
+        Pokemon.cpp
+        Pokemon.h
+        SpecificMoves.cpp
+        SpecificMoves.h
+        SpecificPokemon.cpp
+        SpecificPokemon.h
+        SpecificStatusEffects.cpp
+        SpecificStatusEffects.h
+        StatusEffect.cpp
+        StatusEffect.h
+        Types.cpp
+        Types.h
+        Game.cpp
+        Game.h
+        Move.cpp
+        Move.h
 )
 
 include(cmake/CompilerFlags.cmake)
